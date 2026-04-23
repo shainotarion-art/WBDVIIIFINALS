@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy Puffs</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= LOADER ================= -->
+<div id="loader">
+  <div class="cloud-loader">
+    <div class="puff"></div>
+    <div class="puff puff2"></div>
+    <div class="puff puff3"></div>
+  </div>
+  <h2 class="brand">Cozy Puffs</h2>
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <h1 class="logo">Cozy Puffs</h1>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	<li><a href="contactus.html">Contact Us</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+  </ul>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="carousel">
+    <div class="slides" id="slides">
+      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff" alt="Pastry 1">
+      <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c" alt="Pastry 2">
+      <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e" alt="Pastry 3">
+    </div>
+  </div>
+
+  <div class="hero-text">
+    <h2>Soft. Sweet. Cloud Nine.</h2>
+    <p>Welcome to Cozy Puffs ☁️</p>
+    <button class="cta" onclick="scrollToSection('menu')">Explore Menu</button>
+  </div>
+</section>
+
+<!-- Floating Clouds -->
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+<div class="cloud cloud3"></div>
+
+<!-- ================= MENU ================= -->
+<section class="section" id="menu">
+  <h2>Menu</h2>
+  <div class="card-container">
+    <div class="card">☁️ Pastries</div>
+    <div class="card">☁️ Cakes</div>
+    <div class="card">☁️ Made to Order</div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>We create soft, airy pastries inspired by the comfort of clouds. Every bite is made to feel light, cozy, and delightful.</p>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="section" id="reviews">
+  <h2>Reviews</h2>
+  <div class="review-slider">
+    <div class="review-track" id="reviewTrack">
+      <div class="review">"Best pastries ever!" ⭐⭐⭐⭐⭐</div>
+      <div class="review">"Feels like eating clouds." ☁️</div>
+      <div class="review">"Super soft and aesthetic!" 💙</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: cozypuffs@gmail.com</p>
+  <p>Phone: 0947-691-6445</p>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2026 Cozy Puffs | Made with ☁️</p>
+</footer>
+
+<!-- External JS -->
+<script src="./script.js"></script>
+
+</body>
+</html>
